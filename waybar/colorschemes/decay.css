@@ -1,0 +1,32 @@
+/*
+  ___  _  _  ____  ____  __   _  _     ___  __   __     __  ____  ____   ___  _  _  ____  _  _  ____ 
+ / __)/ )( \/ ___)(_  _)/  \ ( \/ )   / __)/  \ (  )   /  \(  _ \/ ___) / __)/ )( \(  __)( \/ )(  __)
+( (__ ) \/ (\___ \  )( (  O )/ \/ \  ( (__(  O )/ (_/\(  O ))   /\___ \( (__ ) __ ( ) _) / \/ \ ) _) 
+ \___)\____/(____/ (__) \__/ \_)(_/   \___)\__/ \____/ \__/(__\_)(____/ \___)\_)(_/(____)\_)(_/(____)
+
+Decay colorscheme : https://github.com/decaycs/decaycs
+File by Maskrpone
+*/
+
+@define-color background #101419;
+@define-color foreground #B6BECA;
+
+/* Normal palette */
+
+@define-color red     #E05F65;
+@define-color green   #78DBA9;
+@define-color yellow  #F1CF8A;
+@define-color blue    #70A5EB;
+@define-color magenta #C68AEE;
+@define-color cyan    #74BEE9;
+@define-color white   #DEE1E6;
+
+/* Bright palette */
+
+@define-color bred     #E5646A;
+@define-color bgreen   #94F7C5;
+@define-color byellow  #F6D48F;
+@define-color bblue    #75AAF0;
+@define-color bmagenta #CB8FF3;
+@define-color bcyan    #79C3EE;
+@define-color bwhite   #E3E6EB;

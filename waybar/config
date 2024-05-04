@@ -1,0 +1,45 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### DEFAULT Top -Laptop ### //
+{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": false,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
+"height": 40,
+
+"modules-left": [
+	"clock",
+	"cpu",
+	"memory",
+  "hyprland/window",
+	],
+
+"modules-center": [
+	"hyprland/workspaces"
+	], 
+
+"modules-right": [
+	"tray",
+  "custom/swaync",
+	//"mpris", 
+	"custom/separator#dot-line",
+	"bluetooth",
+	"custom/separator#dot-line", 
+	"custom/separator#dot-line", 
+	"backlight",
+	"custom/separator#dot-line",
+	"pulseaudio",
+	"battery",
+	"custom/separator#dot-line",
+	"custom/power",
+	],
+}
